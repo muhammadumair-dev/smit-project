@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaadi form</title>
+    
+</head>
+<body>
+    <header>
+    <h1>Shaadi Registration Form</h1>
+    <form action="/shaadi.html"  >
+        <label for="name"> name:</label>
+        <input type="text" id="name" required>
+        <br/>
+        <br/>
+        <label for="email"> Email:</label>
+        <input type="email" id="email" required>
+        <br/>
+        <br/>
+        <label for="phone">Phone NUmber:</label>
+        <input type="tel" id="phone" required>
+        <br/>
+        <br/>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br/>
+        <br/>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female" required>
+        <label for="female">Female</label>
+        <br/>
+        <br/>
+         <label for="address">Address:</label>
+        <textarea id="address" name="address"  rows="4" cols="50"    required></textarea>
+        <br/>
+        <br/>
+
+        <label for="partner">Looking for a Partner's Age Group:</label>
+        <select id="partner" name="partner" required>
+            <option value="18-25">18-25</option>
+            <option value="26-35">26-35</option>
+            <option value="36-45">36-45</option>
+            <option value="46+">46+</option>
+        </select>
+        <br/>
+        <br/>
+
+        <label for="caste">Caste:</label>
+        <input type="text" id="caste" name="caste" required><br><br>
+
+        <label for="religion">Religion:</label>
+        <input type="text" id="religion" name="religion" value="ISLAM" required><br><br>
+
+        <label for="message">Additional Message:</label>
+        <textarea id="message" name="message"  rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+    </header>
+
+
+
+    
+  
+
+</body>
+</html>
